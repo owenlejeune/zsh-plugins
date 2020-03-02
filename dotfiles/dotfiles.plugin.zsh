@@ -1,2 +1,2 @@
-alias dotfile-make="sh ~/.dotfiles/dotfile-make.sh"
+alias dotfile-make="sh ~/.dotfiles/tools/dotfile-make.sh"
 alias df-make="dotfile-make"
