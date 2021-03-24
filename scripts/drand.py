@@ -19,9 +19,18 @@ if check_start:
         if i.startswith(start):
             fs.append(i)
     numitems = len(fs)
-    i = randint(0,numitems-1)
+    found = False
+    while not found:
+        j = randint(0,numitems-1)
+        if fs[j][0] != ".":
+            found = True
     print(fs[i])
 else:
     numitems = len(dirlist)
-    i = randint(0,numitems-1)
+    found = False
+    while not found:
+        i = randint(0,numitems-1)
+        if dirlist[i][0] != ".":
+            found = True
+    # i = randint(0,numitems-1)
     print(dirlist[i])
