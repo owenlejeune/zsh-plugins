@@ -26,3 +26,8 @@ alias hidefiles="defaults write com.apple.finder AppleShowAllFiles -bool false &
 function rmdsstore() {
   find "${@:-.}" -type f -name .DS_Store -delete
 }
+
+function softup() {
+  brewup
+  mas upgrade
+}

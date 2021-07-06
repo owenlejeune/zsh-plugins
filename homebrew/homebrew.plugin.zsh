@@ -5,6 +5,7 @@ function brewup() {
 	brew upgrade
 	echo "***BREW CLEANUP***"
 	brew cleanup
+	brew autoremove
 	echo "***BREW DOCTOR***"
 	brew doctor
 }

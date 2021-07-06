@@ -19,6 +19,7 @@ alias gbranchd="git branch -D"
 alias grnmbranch="gbranch -m"
 alias gpushb="git push origin"
 alias gundoc="git reset HEAD~"
+alias gundo="git reset HEAD~1"
 alias greset="git checkout --"
 
 function gpush() {
