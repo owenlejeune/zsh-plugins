@@ -29,5 +29,6 @@ function rmdsstore() {
 
 function softup() {
   brewup
+  echo "***MAS Upgrade***"
   mas upgrade
 }

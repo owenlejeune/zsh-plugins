@@ -21,6 +21,7 @@ alias gpushb="git push origin"
 alias gundoc="git reset HEAD~"
 alias gundo="git reset HEAD~1"
 alias greset="git checkout --"
+alias nb="git checkout -b"
 
 function gpush() {
 	BRANCH=""
