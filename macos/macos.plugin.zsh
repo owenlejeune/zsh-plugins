@@ -1,6 +1,11 @@
 alias allowanywhere="sudo spctl --master-disable"
 alias resetaudio="sudo killall coreaudiod"
 
+function softsearch() {
+    brew search $@
+    mas search $@
+}
+
 function screensaver() {
   open -a ScreenSaverEngine.app
 }
